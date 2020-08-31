@@ -24,7 +24,7 @@ public class HelloWorld {
     @GetMapping("test")
     public String hello(){
 
-        System.out.println("dffd");
+        System.out.println("dffd111");
         List<test> all = userService.findAll();
         return "测试";
     }
