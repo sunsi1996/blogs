@@ -23,6 +23,8 @@ public class HelloWorld {
 
     @GetMapping("test")
     public String hello(){
+
+        System.out.println("dffd");
         List<test> all = userService.findAll();
         return "测试";
     }
